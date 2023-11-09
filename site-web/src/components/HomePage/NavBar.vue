@@ -29,17 +29,17 @@ const menu = () => {
         <!-- NAVBAR START -->
 
         <div class="pb-1 bg-orange-400">
-            <div class=" bg-gray-800 pb-1 pt-3 ">
-                <nav class="flex flex-wrap items-center justify-between p-4 bg-white h-32">
+            <div class=" bg-gray-800 pb-1 pt-3 h-[100%] ">
+                <nav class="flex flex-wrap items-center justify-between p-4 bg-white h-[100%] ">
                     <div class=" lg:order-2 lg:w-1/5 lg:text-center flex justify-center">
                         <a class=" fex justify-center " href="#">
                             <img src="../../assets/images/Grupo FK_1.webp" alt="logo">
                         </a>
                     </div>
-                    <div class="block lg:hidden">
+                    <div class="block lg:hidden ">
                         <button @click.prevent="menu()"
                             class="flex items-center px-3 py-2 text-indigo-500 border border-indigo-500 rounded navbar-burger focus:outline-none focus:ring-2 focus:ring-offset-2">
-                            <svg class="w-3 h-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <title>
                                     Menu
                                 </title>
