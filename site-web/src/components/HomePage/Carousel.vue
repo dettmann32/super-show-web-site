@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white font-sans leading-normal tracking-normal mt-2">
+    <section class="bg-white font-sans leading-normal tracking-normal mt-2">
 
 
         <div class="carousel relative shadow-2xl bg-white">
@@ -53,7 +53,7 @@
 
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 

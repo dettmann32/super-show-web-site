@@ -24,4 +24,9 @@ import NavBar from './components/HomePage/NavBar.vue';
 </script>
 
 
-<style lang="scss"></style>
+<style lang="sass">
+body
+  overflow-x: hidden
+
+
+</style>
