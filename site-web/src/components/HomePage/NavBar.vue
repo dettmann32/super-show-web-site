@@ -25,20 +25,20 @@ const menu = () => {
 
 
 <template>
-    <div>
+    <div class="w-[100vw]">
         <!-- NAVBAR START -->
 
-        <div class="pb-1 bg-orange-400">
-            <div class=" bg-gray-800 pb-1 pt-3 h-[100%] ">
+        <div class="pb-1 bg-[#F97241] w-[100vw]">
+            <div class=" bg-gray-800 pb-1 pt-3 h-[100%] w-[100vw]">
                 <nav class="flex flex-wrap items-center justify-between p-4 bg-white h-[100%] ">
                     <div class=" lg:order-2 lg:w-1/5 lg:text-center flex justify-center">
-                        <a class=" fex justify-center " href="#">
+                        <a class=" fex justify-center " href="/">
                             <img src="../../assets/images/Grupo FK_1.webp" alt="logo">
                         </a>
                     </div>
                     <div class="block lg:hidden ">
                         <button @click.prevent="menu()"
-                            class="flex items-center px-3 py-2 text-indigo-500 border border-indigo-500 rounded navbar-burger focus:outline-none focus:ring-2 focus:ring-offset-2">
+                            class="flex items-center px-3 py-2 text-indigo-[#222E42] border border-[#222E42] rounded navbar-burger focus:outline-none focus:ring-2 focus:ring-offset-2">
                             <svg class="w-6 h-6 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <title>
                                     Menu
@@ -49,23 +49,23 @@ const menu = () => {
                         </button>
                     </div>
                     <div class="hidden w-full navbar-menu lg:order-1 lg:block lg:w-2/5">
-                        <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
-                            href="#">
+                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
+                            href="/#cursos">
                             CURSOS
                         </a>
-                        <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
-                            href="#">
+                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
+                            href="/#sobrenos">
                             SOBRE NÓS
                         </a>
 
                     </div>
                     <div class="hidden w-full navbar-menu lg:order-3 lg:block lg:w-2/5 lg:text-right">
-                        <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
-                            href="#">
-                            ENDEREÇOS
+                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
+                            href="/#lojas">
+                            LOJAS
                         </a>
 
-                        <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
+                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
                             href="#">
                             CONTATOS
                         </a>
@@ -77,7 +77,7 @@ const menu = () => {
 
 
 
-                    <div class="lg:hidden flex justify-center items-center absolute  left-0 h-[100vh] bg-gray-800 top-0 w-[70vw] transicao"
+                    <div class="lg:hidden flex justify-center items-center fixed  left-0 h-[100vh] bg-gray-800 top-0 w-[70vw] transicao"
                         :style="'transform: translateX(-' + tranlate + 'px);'" id="NavBarResponsivo">
 
 
@@ -89,7 +89,7 @@ const menu = () => {
 
 
                             <div class="  flex felx-col items-center">
-                                <a class=" text-orange-400   hover:text-orange-600 text-2xl" href="#">
+                                <a class=" text-[#F97241]   hover:text-orange-600 text-2xl"  href="/#cursos" id="navbar-menu">
                                     CURSOS
                                 </a>
 
@@ -99,18 +99,18 @@ const menu = () => {
 
 
                             <div class=" w-full  lg:order-3 block lg:w-2/5">
-                                <a class=" text-orange-400   hover:text-orange-600 text-2xl" href="#">
+                                <a class=" text-[#F97241]  hover:text-orange-600 text-2xl"  href="/#sobrenos">
                                     SOBRE NÓS
                                 </a>
                             </div>
                             <div class=" w-full  lg:order-3 block lg:w-2/5">
-                                <a class=" text-orange-400   hover:text-orange-600 text-2xl" href="#">
-                                    ENDEREÇOS
+                                <a class=" text-[#F97241]   hover:text-orange-600 text-2xl" href="/#lojas">
+                                    LOJAS
                                 </a>
                             </div>
 
                             <div class=" w-full  lg:order-3 block lg:w-2/5">
-                                <a class=" text-orange-400   hover:text-orange-600 text-2xl" href="#">
+                                <a class=" text-[#F97241]   hover:text-orange-600 text-2xl" href="#">
                                     CONTATOS
                                 </a>
                             </div>
@@ -151,7 +151,7 @@ const menu = () => {
 
 
 
-<style lang="sass">
+<style lang="sass" scoped>
 
 .transicao
     transition: transform 1s
@@ -160,6 +160,20 @@ const menu = () => {
 
 #NavBarResponsivo
     z-index: 5000
-    
+
+
+
+a::after
+
+    border-radius: 10px
+    content:''
+    width: 0
+    display: block
+    height: 3px
+    background: #222E42
+    transition: .5s ease-out
+
+a:hover::after
+    width: 100%
 
 </style>

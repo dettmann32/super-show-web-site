@@ -11,12 +11,14 @@
       <router-view/>
     </main>
     
+    <FooterVue></FooterVue>
     
   </div>
 </template>
 
 <script setup>
 import NavBar from './components/HomePage/NavBar.vue';
+import FooterVue from './components/FooterVue.vue';
 
 
 
@@ -27,6 +29,6 @@ import NavBar from './components/HomePage/NavBar.vue';
 <style lang="sass">
 body
   overflow-x: hidden
-
+  background-color: #ffff
 
 </style>
