@@ -1,5 +1,5 @@
 <template>
-    <footer class="w-[100vw] bg-gray-900 flex flex-col p-5 mt-2">
+    <footer class="w-[100vw] bg-gray-900 flex flex-col p-5 mt-2" id="contatos">
         <div class="flex justify-center items-end h-[100%]">
             <div class="text-white flex flex-col justify-center">
 
@@ -30,6 +30,11 @@
 img{
     width: 35px;
     height: 35px;
+}
+
+a:hover{
+    color: rgb(226, 33, 33);
+    text-decoration: underline;
 }
 
 

@@ -21,9 +21,11 @@
                                     alt="product" />
                                 <p class="my-4 pl-4 font-bold text-gray-500">SUPER SHOW CENTRO</p>
                                 <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">
-                                    <ul class="text-left">
-                                        <li><a href="http://wa.me/5527998983827" target="_blank" rel="external">(27)9 9898-3827</a>                        </li>
-                                    </ul>
+                                <ul >
+                                    <li><a href="http://wa.me/5527998983827" target="_blank" rel="external">(27)9
+                                            9898-3827</a> </li>
+                                    <li>Segunda a quinta - 8:00h ás 19:00h <br> Sexta a sábado - 8:00h ás 19:00h</li>
+                                </ul>
                                 </p>
                             </div>
                         </div>
@@ -45,7 +47,13 @@
                                     src="https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/SuperShowSaoLuiz.jpg"
                                     alt="product" />
                                 <p class="my-4 pl-4 font-bold text-gray-500">SUPER SHOW VILA NOVA</p>
-                                <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">$399</p>
+                                <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">
+                                <ul>
+                                    <li><a href="http://wa.me/552798980669" target="_blank" rel="external">(27) 9
+                                            9898-0669</a> </li>
+                                    <li>Segunda a quinta - 8:00h ás 19:00h <br> Sexta a sábado - 8:00h ás 19:00h</li>
+                                </ul>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -64,7 +72,14 @@
                                     src="https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/SaoJoaoDeGarrafao.jpg"
                                     alt="product" />
                                 <p class="my-4 pl-4 font-bold text-gray-500">SUPER SHOW SÃO JOÃO DE GARRAFÃO</p>
-                                <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">$399</p>
+                                <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">
+                                <ul>
+                                    <li><a href="http://wa.me/5527998982797" target="_blank" rel="external">(27) 9
+                                            9898-2797</a> </li>
+                                    <li>Segunda a sábado - 8:00h ás 19:00h </li>
+                                </ul>
+
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -78,7 +93,7 @@
 
 
                 <a href="" target="_blank
-    " ref="nofollow">
+                        " ref="nofollow">
 
 
                     <div class="flex  items-center justify-center m-10 ">
@@ -88,8 +103,14 @@
                                 <img class="w-full rounded-lg object-cover object-center"
                                     src="https://lh3.googleusercontent.com/p/AF1QipOgN_GkUq8LUAxcwlOuEx_1Ou_BJ0jpVEOAKcmV=s680-w680-h510"
                                     alt="product" />
-                                <p class="my-4 pl-4 font-bold text-gray-500">Product Name</p>
-                                <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">$399</p>
+                                <p class="my-4 pl-4 font-bold text-gray-500">SUPER SHOW SÃO LUIZ</p>
+                                <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">
+                                <ul>
+                                    <li><a href="http://wa.me/5527998970021" target="_blank" rel="external">(27) 9
+                                            9897-0021</a> </li>
+                                    <li>Segunda a sábado - 8:00h ás 19:00h </li>
+                                </ul>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -105,8 +126,14 @@
                             <img class="w-full rounded-lg object-cover object-center"
                                 src="https://lh3.googleusercontent.com/p/AF1QipOgN_GkUq8LUAxcwlOuEx_1Ou_BJ0jpVEOAKcmV=s680-w680-h510"
                                 alt="product" />
-                            <p class="my-4 pl-4 font-bold text-gray-500">Product Name</p>
-                            <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">$399</p>
+                            <p class="my-4 pl-4 font-bold text-gray-500">SUPER SHOW RIO POSSMOSER</p>
+                            <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">
+                            <ul>
+                                <li><a href="http://wa.me/5527998984420" target="_blank" rel="external">(27) 9 9898-4420</a>
+                                </li>
+                                <li>Segunda a sábado - 8:00h ás 19:00h </li>
+                            </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -128,7 +155,19 @@
 </script>
 
 <style  scoped>
+
 section {
     background-image: radial-gradient(#091e41, #222E42)
 }
+
+li a{
+    color: red;
+}
+
+li a:hover{
+    color: rgb(226, 33, 33);
+    text-decoration: underline;
+}
+
+
 </style>

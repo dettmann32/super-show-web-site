@@ -1,6 +1,6 @@
 <template>
     <div >
-        <div id="slider" class=" mx-auto w-[40vw] h-[50vw] overflow-hidden rounded-sm my-4 ml-2">
+        <div id="slider" class=" mx-auto w-[350px] h-[600px] md:w-[500px] md:h-[950px] overflow-hidden rounded-sm mt-4 ml-2">
             <div id="slides" class="w-[400%] h-[400px] flex">
 
 
@@ -88,8 +88,8 @@ let sliderControll = ref(0)
 }
 
 #slide img {
-    width: 800px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 
 

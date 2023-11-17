@@ -1,5 +1,5 @@
 <template>
-  <section class="flex justify-center w-full h-full my-10 flex-col bg-cover">
+  <section class="flex justify-center w-full h-[100vh] my-10 flex-col bg-cover">
     <div class="text-center text-2xl"><h1>Repositor de Mercadorias</h1></div>
     <div class="h-full w-full flex justify-center ">
 

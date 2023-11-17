@@ -66,7 +66,7 @@ const menu = () => {
                         </a>
 
                         <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
-                            href="#">
+                            href="/#contatos">
                             CONTATOS
                         </a>
                     </div>
