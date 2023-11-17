@@ -6,10 +6,9 @@
         <div class="h-full w-full flex justify-center ">
 
             <div class="w-[50vw] h-[40vw]">
-                <iframe class='w-[100%] h-[100%]' src="https://www.youtube.com/embed/mrqcx9DazzE" title="VTS 01 3"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                <video src="../assets/images/videos/Açougue 2.mp4" class="w-full h-full" autoplay>
+                
+                </video>
             </div>
         </div>
 
