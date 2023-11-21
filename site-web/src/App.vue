@@ -27,11 +27,24 @@ import FooterVue from './components/FooterVue.vue';
 
 
 <style lang="sass">
+
+*
+  font-family: Arial, Helvetica, sans-serif
+  
+
 body
   overflow-x: hidden
   background-color: #ffff
 
 
 
+  h1  
+    color:#F97241 !important
+    
+
+
 
 </style>
+
+
+

@@ -25,9 +25,8 @@ export default {
     slides: [
       "https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/fk%20laranja.png",
       "https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/ss.png",
-      "https://picsum.photos/id/1037/900/400",
-      "https://picsum.photos/id/1035/900/400",
-      "https://picsum.photos/id/1036/900/400",
+      "https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/atender%20cliente.png",
+    
     ],
   }),
 };

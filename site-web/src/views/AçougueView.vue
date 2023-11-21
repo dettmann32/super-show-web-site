@@ -1,14 +1,14 @@
 <template>
-    <section class="flex justify-center w-full h-[100vh] my-10 flex-col bg-cover">
-        <div class="text-center text-2xl">
-            <h1>Açougue</h1>
-        </div>
+   <section class="flex justify-center w-full h-[110vh]  flex-col bg-cover">
+        
+            <h1 class="text-center text-2xl mt-4">Açougue</h1>
+        
         <div class="h-full w-full flex justify-center ">
 
-            <div class="w-[50vw] h-[40vw]">
-                <video src="../assets/images/videos/Açougue 2.mp4" class="w-full h-full" autoplay>
-                
-                </video>
+            <div class=" w-[100vw] h-[80vw]   md:w-[50vw] md:h-[40vw] ">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_ChH_NT7dAA" title="Açougue" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+                </iframe>
             </div>
         </div>
 

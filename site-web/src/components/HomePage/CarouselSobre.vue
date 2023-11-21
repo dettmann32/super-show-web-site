@@ -1,7 +1,7 @@
 <template>
-    <div >
-        <div id="slider" class=" mx-auto w-[350px] h-[600px] md:w-[500px] md:h-[950px] overflow-hidden rounded-sm mt-4 ml-2">
-            <div id="slides" class="w-[400%] h-[400px] flex">
+    <div>
+        <div id="slider" class=" mx-auto w-[350px] h-[600px] overflow-hidden rounded-sm mt-4 ml-2">
+            <div id="slides" class="w-[400%] h-[600px] flex">
 
 
 
@@ -9,16 +9,16 @@
 
                 <!-- slide images -->
                 <div id="slide" :style="'margin-left:-'+ sliderControll +'%'">
-                    <img src="https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/reposicao2.png" alt="">
+                    <img src="https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/MIS%C3%83O.png" alt="missão">
                 </div>
 
                 <div id="slide">
-                    <img src="https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/imagensCursos/a%C3%A7ougueiro%202.jpg" alt="">
+                    <img src="https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/VIS%C3%83O.png" alt="visão">
                 </div>
 
 
                 <div id="slide">
-                    <img src="https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/imagensCursos/op%20de%20caixa%203.png" alt="">
+                    <img src="https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/VALORES.png" alt="valores">
                 </div>
 
                 <!-- Fim das imagens -->
@@ -58,7 +58,7 @@ let sliderControll = ref(0)
 
      setInterval(()=> {
         controll()
-     },5000)
+     },10000)
 
  
   

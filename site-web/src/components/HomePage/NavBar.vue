@@ -49,23 +49,23 @@ const menu = () => {
                         </button>
                     </div>
                     <div class="hidden w-full navbar-menu lg:order-1 lg:block lg:w-2/5">
-                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
+                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-[#1B67B3] text-2xl"
                             href="/#cursos">
                             CURSOS
                         </a>
-                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
+                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-[#1B67B3]  text-2xl"
                             href="/#sobrenos">
                             SOBRE NÓS
                         </a>
 
                     </div>
                     <div class="hidden w-full navbar-menu lg:order-3 lg:block lg:w-2/5 lg:text-right">
-                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
+                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-[#1B67B3]  text-2xl"
                             href="/#lojas">
                             LOJAS
                         </a>
 
-                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-indigo-600 text-2xl"
+                        <a class="block mt-4 mr-10 text-[#222E42] lg:inline-block lg:mt-0 hover:text-[#1B67B3]  text-2xl"
                             href="/#contatos">
                             CONTATOS
                         </a>
@@ -82,7 +82,7 @@ const menu = () => {
 
 
                         <div class="absolute right-2 top-2 cursor-pointer" @click="tranlate = 1000">
-                            <img src="../../assets/images/icons8-x-48.png" alt="X">
+                            <img src="../../assets/images/icons8-x-48.png" alt="X" >
                         </div>
                         <div class=" flex justify-center text-center items-center flex-col h-[100%] gap-7">
 
@@ -170,7 +170,7 @@ a::after
     width: 0
     display: block
     height: 3px
-    background: #222E42
+    background: #1B67B3
     transition: .5s ease-out
 
 a:hover::after

@@ -1,6 +1,6 @@
 <template>
-    <section class="m-auto flex  flex-col xl:flex-row  px-5 justify-center  items-center bg-cover w-[100vw] min-h-[600px]  shadow-xl -mb-48" style="background-image: url('https://static.wixstatic.com/media/8a9ccb_230081661a7244819b6b3f14d4fa8ab0~mv2.jpg/v1/fill/w_1151,h_863,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8a9ccb_230081661a7244819b6b3f14d4fa8ab0~mv2.jpg')" id="sobrenos">
-        <div class="w-[100%] m-auto bg-white xl:w-[100%] mt-0 p-2 shadow-2xl rounded-b-xl" >
+    <section class="m-auto flex  flex-col  px-5 justify-center  items-center bg-cover w-[100vw] min-h-[1000px]  shadow-xl  " style="background-image: url('https://static.wixstatic.com/media/8a9ccb_230081661a7244819b6b3f14d4fa8ab0~mv2.jpg/v1/fill/w_1151,h_863,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8a9ccb_230081661a7244819b6b3f14d4fa8ab0~mv2.jpg')" id="sobrenos">
+        <div class="w-[100%] m-auto bg-white mt-0 p-2 shadow-2xl rounded-b-xl" >
             <h1 class="text-red-700 text-3xl">
                 Grupo FK
             </h1>
