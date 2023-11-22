@@ -27,7 +27,7 @@ const menu = () => {
 <template>
     <div class="w-[100vw]">
         <!-- NAVBAR START -->
-
+        <title class="hidden"><h1>Grupo FK Varejo e Agroindustria</h1></title>
         <div class="pb-1 bg-[#F97241] w-[100vw]">
             <div class=" bg-gray-800 pb-1 pt-3 h-[100%] w-[100vw]">
                 <nav class="flex flex-wrap items-center justify-between p-4 bg-white h-[100%] ">
