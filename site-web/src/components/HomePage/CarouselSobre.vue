@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div id="slider" class=" mx-auto w-[350px] h-[600px] overflow-hidden rounded-sm mt-4 ml-2">
+        <div id="slider" class=" mx-auto w-[350px] h-[600px] overflow-hidden rounded-xl  lg:mt-0 my-2 ml-2 lg:my-0">
             <div id="slides" class="w-[400%] h-[600px] flex">
 
 

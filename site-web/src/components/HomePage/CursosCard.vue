@@ -12,7 +12,7 @@
                 </h1>
             </div>
             <div class="mt-10">
-                <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-5 justify-items-center">
+                <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 mt-5 justify-items-center">
                     <router-link to="/operadordecaixa">
                         <div class="flex  items-center justify-center m-10 ">
                             <div class="mx-auto px-5">
@@ -108,7 +108,7 @@
                                     class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
                                     <img class="w-full rounded-lg object-cover object-center"
                                         src="../../assets/images/img-cursos/repositora de lacticinios.png" alt="product" />
-                                    <p class="my-4 pl-4 font-bold text-gray-500">FIAMBERIA E LATICÍNIOS NO SUPERMERCADO</p>
+                                    <p class="my-4 pl-4 font-bold text-gray-500">FRIAMBERIA E LATICÍNIOS NO SUPERMERCADO</p>
                                     <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">Para aumentar as vendas</p>
                                 </div>
                             </div>

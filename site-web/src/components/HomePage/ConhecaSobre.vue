@@ -1,14 +1,14 @@
 <template>
-    <section class="m-auto flex  flex-col  px-5 justify-center  items-center bg-cover w-[100vw] min-h-[1000px]  shadow-xl  " style="background-image: url('https://static.wixstatic.com/media/8a9ccb_230081661a7244819b6b3f14d4fa8ab0~mv2.jpg/v1/fill/w_1151,h_863,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8a9ccb_230081661a7244819b6b3f14d4fa8ab0~mv2.jpg')" id="sobrenos">
-        <div class="w-[100%] m-auto bg-white mt-0 p-2 shadow-2xl rounded-b-xl" >
-            <h1 class="text-red-700 text-3xl">
+    <section class="m-auto flex  flex-col px-5 justify-center  items-center bg-cover w-[100vw]  shadow-xl  lg:flex-row py-5" style="background-image: url('https://static.wixstatic.com/media/8a9ccb_230081661a7244819b6b3f14d4fa8ab0~mv2.jpg/v1/fill/w_1151,h_863,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8a9ccb_230081661a7244819b6b3f14d4fa8ab0~mv2.jpg')" id="sobrenos">
+        <div class="w-[100%] flex flex-col items-center bg-white p-2 shadow-2xl rounded-xl lg:h-[600px]" >
+            <h1 class="text-red-700 text-[300%]">
                 Grupo FK
             </h1>
-            <h2 class="text-blue-600 text-2xl">
+            <h2 class="text-blue-600 text-[150%] ">
                 Conheça um pouco mais sobre nós!
             </h2>
 
-            <p class="text-justify text-xl ">
+            <p class="text-justify text-[120%] lg:text-[135%]" >
                 O SuperShow Supermercados é uma empresa com mais de 22 anos de história, com cinco lojas presentes no estado
                 do Espírito Santo.<br><br>
 

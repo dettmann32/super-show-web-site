@@ -102,7 +102,7 @@
                             <div
                                 class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
                                 <img class="w-full rounded-lg object-cover object-center"
-                                    src="https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/Super%20show%20s%C3%A3o%20luiz.jpg"
+                                    src="../../assets/images/f3 são luiz.jpeg"
                                     alt="product" />
                                 <p class="my-4 pl-4 font-bold text-gray-500">SUPER SHOW SÃO LUIZ</p>
                                 <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">
@@ -126,7 +126,7 @@
                             <div
                                 class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
                                 <img class="w-full rounded-lg object-cover object-center"
-                                    src="https://dettmann32.github.io/imagens-for-supershow-web-site/imagens/super%20show%20garraf%C3%A3o.jpg"
+                                    src="../../assets/images/f5.jpg"
                                     alt="product" />
                                 <p class="my-4 pl-4 font-bold text-gray-500">SUPER SHOW RIO POSSMOSER</p>
                                 <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">
