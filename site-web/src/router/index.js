@@ -10,64 +10,82 @@ const routes = [
   {
     path: '/repositor',
     name: 'repositor',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/RepositorView.vue')
   },
   {
     path: '/operadordecaixa',
     name: 'operadordecaixa',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/OperadorDeCaixaView.vue')
   },
 
   {
     path: '/padaria',
     name: 'padaria',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/PadariaView.vue')
   },
 
   {
     path: '/açougue',
     name: 'açougue',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AçougueView.vue')
   },
 
   {
     path: '/hortfruti',
     name: 'hortfruti',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/HortFrutiView.vue')
   },
 
   {
     path: '/embalador',
     name: 'embalador',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/EmbaladorView.vue')
   },
 
   {
     path: '/laticinios',
     name: 'laticinios',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/LaticiniosView.vue')
-  }
+  },
+
+
+  {
+    path: '/SuperShowVilaNova',
+    name: 'SuperShowVila Nova',
+  
+    component: () => import(/* webpackChunkName: "about" */ '../views/viewsLojas/VilaView.vue')
+  },
+
+  {
+    path: '/SuperShowCentro',
+    name: 'SuperShow Centro',
+    component: () => import(/* webpackChunkName: "about" */ '../views/viewsLojas/CentroView.vue')
+  },
+
+
+  {
+    path: '/SuperShowGarrafao',
+    name: 'SuperShow Garrafão',
+    component: () => import(/* webpackChunkName: "about" */ '../views/viewsLojas/GarrafaoView.vue')
+  },
+
+  {
+    path: '/SuperShowSaoLuiz',
+    name: 'SuperShow São Luiz',
+    component: () => import(/* webpackChunkName: "about" */ '../views/viewsLojas/SaoLuizView.vue')
+  },
+
+  {
+    path: '/SuperShowRioPosmoser',
+    name: 'SuperShow Rio Posmoser',
+    component: () => import(/* webpackChunkName: "about" */ '../views/viewsLojas/RioPosmoserView.vue')
+  },
+
+
+
+
+
+  
 
 
 ]
