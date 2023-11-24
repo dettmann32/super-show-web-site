@@ -7,17 +7,13 @@
             </div>
             <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 ">
 
-
                 <router-link to="/SuperShowCentro">
-
-
                     <div class="flex  items-center justify-center m-10">
                         <div class="mx-auto px-5">
                             <div
                                 class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
                                 <img class="w-full rounded-lg object-cover object-center"
-                                    src="../../assets/images/matrizCentro.png"
-                                    alt="product" />
+                                    src="../../assets/images/matrizCentro.png" alt="product" />
                                 <p class="my-4 pl-4 font-bold text-gray-500">SUPER SHOW CENTRO</p>
                                 <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">
                                 <ul>
@@ -29,14 +25,9 @@
                             </div>
                         </div>
                     </div>
-
-
-
                 </router-link>
 
-
                 <router-link to="./SuperShowVilaNova">
-
                     <div class="flex  items-center justify-center m-10 ">
                         <div class="mx-auto px-5">
                             <div
@@ -55,12 +46,9 @@
                             </div>
                         </div>
                     </div>
-
-
                 </router-link>
 
-
-                <router-link to="/SuperShowGarrafao" >
+                <router-link to="/SuperShowGarrafao">
                     <div class="flex  items-center justify-center m-10 ">
                         <div class="mx-auto px-5">
                             <div
@@ -80,25 +68,15 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </router-link>
 
-
-
-
                 <router-link to="/SuperShowSaoLuiz">
-
-
                     <div class="flex  items-center justify-center m-10 ">
                         <div class="mx-auto px-5">
                             <div
                                 class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
                                 <img class="w-full rounded-lg object-cover object-center"
-                                    src="../../assets/images/f3 são luiz.jpeg"
-                                    alt="product" />
+                                    src="../../assets/images/f3 são luiz.jpeg" alt="product" />
                                 <p class="my-4 pl-4 font-bold text-gray-500">SUPER SHOW SÃO LUIZ</p>
                                 <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">
                                 <ul>
@@ -110,17 +88,14 @@
                             </div>
                         </div>
                     </div>
-
-
                 </router-link>
 
-                <router-link to="/SuperShowRioPosmoser" >
+                <router-link to="/SuperShowRioPosmoser">
                     <div class="flex  items-center justify-center m-10 ">
                         <div class="mx-auto px-5">
                             <div
                                 class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
-                                <img class="w-full rounded-lg object-cover object-center"
-                                    src="../../assets/images/f5.jpg"
+                                <img class="w-full rounded-lg object-cover object-center" src="../../assets/images/f5.jpg"
                                     alt="product" />
                                 <p class="my-4 pl-4 font-bold text-gray-500">SUPER SHOW RIO POSSMOSER</p>
                                 <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">
@@ -134,10 +109,9 @@
                             </div>
                         </div>
                     </div>
-
                 </router-link>
-            </div>
 
+            </div>
         </div>
 
 
@@ -154,10 +128,9 @@
 </script>
 
 <style  scoped>
-
-*{
-    font-family: Arial, Helvetica, sans-serif; 
-} 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 section {
     background-image: radial-gradient(#091e41, #222E42)
@@ -171,7 +144,4 @@ li a:hover {
     color: rgb(226, 33, 33);
     text-decoration: underline;
 }
-
-
-
 </style>

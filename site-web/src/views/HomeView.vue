@@ -1,10 +1,10 @@
 <template>
   <div>
     <carousel :slides="slides" :interval="5000" controls indicators></carousel>
-    <CursosCard></CursosCard>
-    <ImgVue></ImgVue>
-    <ConhecaSobre></ConhecaSobre>
-    <ConhecaLojas></ConhecaLojas>
+    <CursosCard class="slide"></CursosCard>
+    <ImgVue class="slide"></ImgVue>
+    <ConhecaSobre class="slide"></ConhecaSobre>
+    <ConhecaLojas class="slide"></ConhecaLojas>
 
   </div>
   </template>
@@ -33,3 +33,8 @@ export default {
 
 
 </script>
+
+<style scoped >
+
+
+</style>
