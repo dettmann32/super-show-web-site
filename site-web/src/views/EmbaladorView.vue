@@ -6,9 +6,9 @@
     <div class="h-full w-full flex justify-center ">
 
       <div class=" w-[100vw] h-[80vw]   md:w-[50vw] md:h-[40vw] ">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JFGmHxFkRGY" title="Embalador" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/X2zPvobip5Q" title="EMBALADOR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-        </iframe>
+        
       </div>
     </div>
 

@@ -28,8 +28,11 @@ import FooterVue from './components/FooterVue.vue';
 
 <style lang="sass">
 
+ 
+
+
 *
-  font-family: Arial, Helvetica, sans-serif 
+  font-family: 'Arial Narrow', Arial, Helvetica, sans-serif
   
 
 body

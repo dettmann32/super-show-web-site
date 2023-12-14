@@ -3,7 +3,7 @@
         <div class="flex justify-center items-end h-[100%]">
             <div class="text-white flex flex-col justify-center">
 
-                <a href="mailto:contato@supershowsupermercados.com.br" target="_blank" ref="external">contato@supershowsupermercados.com.br</a>
+                <a href="mailto:contato@supershowsupermercados.com.br" target="_blank" ref="external" class="text-center">contato@supershowsupermercados.com.br</a>
 
                 <ul class="flex justify-around my-4">
                     <li><a href="https://www.instagram.com/supershowsupermercados/" target="_blank"> <img src="../assets/images/instagram.png" alt="Logo Instagram"></a></li>
@@ -11,7 +11,7 @@
                     <li><a href="https://www.facebook.com/supershowsupermercado/?locale=pt_BR" target="_blank"><img src="../assets/images/facebook.png" alt="Logo FaceBook"></a></li>
                 </ul>
 
-                <p>©2022 por MultiShow Santa Maria de Jetibá</p>
+                <p class="text-center">©2023 por, MultiShow Santa Maria de Jetibá</p>
             </div>
         </div>
     </footer>
