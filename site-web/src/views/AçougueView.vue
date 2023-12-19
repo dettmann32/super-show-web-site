@@ -8,7 +8,7 @@
             <div class=" w-[100vw] h-[80%]   sm:w-[50vw] sm:h-[40vw] ">
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7F9nKyYGUt8" title="AÇOUGUE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div class=" w-[50vw] h-[80%]   md:w-[50vw] md:h-[40vw]  mr-10 md:text-[1.9vw] md:ml-6 text-[3vw] mb-10">
+            <div class=" w-[50vw] h-[80vw]   md:w-[50vw] md:h-[40vw]  mr-10 md:text-[1.9vw] md:ml-6 text-[3vw] mb-10">
                 <p>
 
                     <span class="text-justify">

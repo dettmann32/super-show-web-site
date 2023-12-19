@@ -1,7 +1,7 @@
 <template>
-  <section class="flex justify-center w-full h-[190vw] md:h-auto  flex-col bg-cover mb-32">
+  <section class="flex justify-center w-full  flex-col bg-cover mb-20h">
     <h1 class="text-center text-[4vw] md:mt-4 mb-1 mt-1">Padaria no supermercado para aumentar as vendas</h1>
-    <div class=" flex md:flex-row flex-col">
+    <div class=" flex md:flex-row flex-col mb-20">
       <div class="h-full w-full flex justify-center ">
 
         <div class=" w-[100vw] h-[80vw]   md:w-[50vw] md:h-[40vw] ">
@@ -11,7 +11,7 @@
             allowfullscreen></iframe>
         </div>
       </div>
-      <div class=" w-[50vw] h-[80vw]   md:w-[50vw] md:h-[40vw]  mr-10 md:text-[1.4vw] md:ml-6 text-[2.8vw] mb-10">
+      <div class=" w-[50vw] md:w-[50vw] mr-10 md:ml-6 mb-20 ">
         <p>
 
           <span class="text-justify">
@@ -35,7 +35,7 @@
           <li>- Exigências do código de proteção e confeitaria;</li>
           <li>- Exigências do código de proteção e defesa do consumidor;</li>
           <li>- Por que os supermercados são multados, principais motivos.</li>
-         
+
 
 
         </ul>
