@@ -8,10 +8,9 @@
 
 
             <div class=" w-[100vw]   h-[70vw] md:w-[50vw] md:h-[40vw] md:ml-6 mb-10">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/X3L5dfqkh1E" title="Operador de caixa"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rGmKgTMNn3s" title="Operador de caixa" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
 
                 </iframe>
             </div>
