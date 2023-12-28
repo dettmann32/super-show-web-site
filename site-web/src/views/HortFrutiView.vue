@@ -6,12 +6,7 @@
         <div class="md:h-[50vw]  flex  justify-center ">
 
           <div class=" h-[40vw] w-[45vw]">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KxvohHyqtRE"
-              title="Hortifruti qualidade e exposição" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen>
-
-            </iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3bGSxP6Vzek" title="Hortifruti qualidade e exposição" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </section>
